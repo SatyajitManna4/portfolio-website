@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm Satyajit Manna. Explore my journey and work!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Never Give Up</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degree in BCA - Vidyasagar University </li>
+            <li>High School - Dhanghara Janandara Vidyapith</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="project-list">
+            <div class="project-item">
+                <h3>BMI Calculator App</h3>
+                <p>A simple app to calculate Body Mass Index based on user input.</p>
+                <a href="https://github.com/yourusername/bmi-comming soon" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>WhatsApp Clone</h3>
+                <p>A clone of WhatsApp with basic messaging features.</p>
+                <a href="https://github.com/yourusername/comming soon" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>portfolio </h3>
+                <p>It's tell something about myself. </p>
+                <a href="https://github.com/yourusername/comming soon" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="memories">
+        <h2>College Memories</h2>
+        <div id="gallery"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SatyajitManna104. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
